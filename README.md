@@ -116,34 +116,18 @@ login:password@ip:port
 # Threading Configuration
 threads: 1
 
-# Network Settings
-reddio_rpc: https://reddio-dev.reddio.com
-reddio_explorer: https://reddio-devnet.l2scan.co
-
-sepolia_rpc: wss://ethereum-sepolia-rpc.publicnode.com
-sepolia_explorer: https://sepolia.etherscan.io
-
 # Timing Settings
 delay_before_start:
     min: 0
     max: 0
 
-# API keys for captcha solving
+# API key for solving captcha
+# https://capmonster.cloud
 cap_monster: ""
 
-# Tokens list
-tokens:
-  - name: STT
-    address: ""
-  - name: WSTT
-    address: ""
-  - name: USDT
-    address: ""
-  - name: WBTC
-    address: ""
-
 # Referral code for registration
-referral_code: ""
+referral_code: "YOUR_CODE"
+
 ```
 
 ### Twitter Setup
